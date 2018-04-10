@@ -135,6 +135,13 @@ var twrap = new TimelineMax(),
             twrap.restart();
         }
     }
+    vid.onpause = function() {
+        twrap.pause();
+    }
+    vid.onplay = function() {
+        twrap.play();
+    }
+    console.log($(vid))
 
     $('.vjs-progress-control').find('div').click(function () {
         twrap.restart();
