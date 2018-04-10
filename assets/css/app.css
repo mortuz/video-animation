@@ -1,0 +1,494 @@
+body {
+
+    text-align: center;
+}
+.video-js {
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.video-js.vjs-fullscreen {
+    height: 0 !important;
+    padding-top: 56.25% !important;
+}
+.b-video-player-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 854px;
+    display: inline-block;
+}
+.b-text-animation.is-ready {
+    z-index: 99;
+}
+.video-js .vjs-big-play-button {
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.b-text-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transform-origin: 50%;
+}
+.b-text-animation div {
+    position: absolute;
+    color: #000;
+}
+div#slider {
+    width: 600px;
+    margin: auto;
+}
+.ful-width {
+    width: 100%;
+}
+.b-video-player-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 854px;
+    display: inline-block;
+}
+.video-js.vjs-16-9, .video-js.vjs-4-3, .video-js.vjs-fluid {
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+}
+.vjs-fluid {
+    padding-top: 56.25%;
+}
+.video-js {
+    display: block;
+    vertical-align: top;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.video-js .vjs-tech {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.animations-wrap {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.animations-wrap div {
+    position: absolute;
+}
+
+#brand_name_21,
+#brand_name1,
+#brand_name_2,
+#brand_name {
+    font-size: 51px;
+    color: #0b37a6;
+    top: 53%;
+    right: 0;
+    letter-spacing: -.05em;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+}
+#brand_name_21,
+#brand_name_2 {
+    font-size: 39px;
+    left: 6%;
+    top: 36%;
+    right: auto;
+    letter-spacing: -.08em;
+}
+#name1,
+#name {
+    font-size: 52px;
+    font-weight: bold;
+    left: 7%;
+    top: 47%;
+    letter-spacing: -.002em;
+}
+#customers_name1,
+#customers_name {
+    opacity: 0;
+    top: 58%;
+    letter-spacing: -.06em;
+    left: 17%;
+    font-size: 16px;
+}
+
+/*part 3*/
+#points1,
+#points,
+#value,
+#value1,
+#equally,
+#equally1 {
+    font-weight: bold;
+    opacity: 0;
+}
+#value,
+#value1,
+#equally,
+#equally1 {
+    color: #6195fc;
+    font-size: 51px;
+}
+#points1,
+#points {
+    top: 8%;
+    font-size: 57px;
+    color: #18429e;
+    left: 32%;
+    /*right: 0;*/
+    margin: auto;
+    opacity: 1;
+}
+#value1,
+#value {
+    top: 9%;
+    left: 59%;
+    opacity: 1;
+}
+#equally1,
+#equally {
+    top: 8.5%;
+    font-size: 55px;
+    right: 37.5%;
+    opacity: 0;
+}
+#after-val1,
+#after-val {
+    top: 22%;
+    right: 20%;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: -0.07em;
+    opacity: 0;
+}
+#date1,
+#date {
+    top: 22%;
+    font-size: 27px;
+    left: 0;
+    right: 0;
+    letter-spacing: -.03em;
+}
+/*part 4*/
+.new-price,
+.old-price {
+    border: 2px solid #000;
+}
+.old-price {
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: -.03em;
+    padding: 1px 2px;
+}
+.old-price:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0;
+    top: 38%;
+}
+#prise2,
+#prise1,
+#prise,
+#prise_1,
+#prise2_1,
+#prise_21 {
+    bottom: -1%;
+    left: 11%;
+    width: 15.7%;
+    height: 15%;
+    opacity: 0;
+}
+.new-price {
+    font-size: 40px;
+    width: 97%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    top: 35%;
+    height: 57%;
+}
+#discount,
+#discount1,
+#discount2,
+#discount_1,
+#discount1_2,
+#discount_21 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    top: 27%;
+    left: 24.4%;
+    color: #fff;
+    letter-spacing: -0.03em;
+}
+#discount_1 div,
+#discount1_2 div,
+#discount_21 div,
+#discount div,
+#discount1 div,
+#discount2 div {
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+#prise2_1,
+#prise1 {
+    left: 42.7%;
+}
+#discount1_1,
+#discount1 {
+    left: 56%;
+}
+#discount_21,
+#discount2 {
+    right: 6.6%;
+    left: auto;
+}
+
+#prise2 {
+    left: auto;
+    right: 10.7%;
+}
+/*part 5*/
+#yellow-line,
+#point {
+    background: #fec242;
+}
+#point {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    top: 45%;
+    left: 25%;
+}
+#yellow-line {
+    top: 45%;
+    left: 30%;
+    height: 20%;
+    border-radius: 0 10em 10em 0;
+}
+#orange-line {
+    top: 45%;
+    left: 70%;
+    height: 20%;
+    border-radius: 0 10em 10em 0;
+    background: #fe9938;
+    z-index: -1;
+}
+#black-line {
+    height: 2px;
+    background: #424042;
+    width: 1%;
+    left: 25.6%;
+    top: 70%;
+    opacity: 0;
+}
+#black-line:before,
+#black-line:after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 9px;
+    background: #000;
+    bottom: 0;
+}
+#black-line:before {
+    left: 0;
+}
+#black-line:after {
+    right: 0;
+}
+#top-current {
+    top: 23%;
+    left: 56%;
+    width: 14%;
+    height: 15%;
+    letter-spacing: -.06em;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+}
+#top-current div {
+    position: relative;
+}
+.text--one {
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.text--two {
+    font-size: 24px;
+    line-height: 1.2;
+}
+#bot-current {
+    width: 18%;
+    top: 72%;
+    left: 25%;
+    height: 21%;
+    text-align: left;
+}
+#bot-current div {
+    position: relative;
+}
+.text-before-cr {
+    font-size: 22px;
+    line-height: 1;
+}
+.current-sum {
+    font-size: 60px;
+    font-weight: bold;
+}
+.text-after-cr {
+    letter-spacing: -.05em;
+    font-size: 15px;
+    left: -4%;
+    top: -11%;
+    opacity: 0;
+}
+
+@media screen and (max-width: 875px) {
+    #brand_name_21, #brand_name1, #brand_name_2, #brand_name {
+        font-size: 5.8vw;
+    }
+    .new-price,
+    #brand_name_2 {
+        font-size: 4.5vw;
+    }
+    #value, #value1, #equally, #equally1,
+    #name {
+        font-size: 6vw;
+    }
+    #customers_name {
+        font-size: 1.8vw;
+    }
+    #points {
+        font-size: 6.5vw;
+    }
+    #top-current,
+    #date {
+        font-size: 3vw;
+    }
+    .text--two,
+    .text--one {
+        letter-spacing: -.06em;
+    }
+    #after-val {
+        font-size: 1.18vw;
+    }
+    #discount, #discount1, #discount2, #discount_1, #discount1_2, #discount_21 {
+        font-size: 2.7vw;
+    }
+    .old-price {
+        font-size: 1.3vw;
+        letter-spacing: -.03em;
+        padding: 1px 0;
+        width: 100%;
+    }
+    .text-before-cr {
+        font-size: 2.5vw;
+    }
+    .current-sum {
+        font-size: 7vw;
+    }
+    .text-after-cr {
+        font-size: 1.75vw;
+    }
+    .text--two {
+        font-size: 2.8vw;
+    }
+    #value, #value1, #equally, #equally1,
+    #points {
+        letter-spacing: -.05em;
+    }
+    .text--one {
+        margin-left: 0;
+    }
+    #top-current {
+        width: 17%;
+    }
+    #bot-current {
+        width: 20%;
+    }
+    .vjs-fullscreen .new-price,
+    .vjs-fullscreen #brand_name_2 {
+        padding-top: 0;
+    }
+}
+.vjs-fullscreen  {
+
+}
+
+.vjs-fullscreen #brand_name_21, .vjs-fullscreen #brand_name1, .vjs-fullscreen #brand_name_2, .vjs-fullscreen #brand_name {
+    font-size: 5.8vw;
+}
+.vjs-fullscreen .new-price {
+    padding-top: 2%;
+}
+.vjs-fullscreen .new-price,
+.vjs-fullscreen #brand_name_2 {
+    font-size: 4.5vw;
+}
+.vjs-fullscreen #value, .vjs-fullscreen #value1, .vjs-fullscreen #equally, .vjs-fullscreen #equally1,
+.vjs-fullscreen #name {
+    font-size: 6vw;
+}
+.vjs-fullscreen #customers_name {
+    font-size: 1.8vw;
+}
+.vjs-fullscreen #points {
+    font-size: 6.5vw;
+}
+.vjs-fullscreen #top-current,
+.vjs-fullscreen #date {
+    font-size: 3vw;
+}
+.vjs-fullscreen #after-val {
+    font-size: 1.18vw;
+}
+.vjs-fullscreen #discount, .vjs-fullscreen #discount1, .vjs-fullscreen #discount2, .vjs-fullscreen #discount_1, .vjs-fullscreen #discount1_2, .vjs-fullscreen #discount_21 {
+    font-size: 2.7vw;
+}
+.vjs-fullscreen .old-price {
+    font-size: 1.3vw;
+    width: 100%;
+    line-height: 1.2;
+}
+.vjs-fullscreen .text-before-cr {
+    font-size: 2.5vw;
+}
+.vjs-fullscreen .current-sum {
+    font-size: 7vw;
+}
+.vjs-fullscreen .text-after-cr {
+    font-size: 1.75vw;
+}
+.vjs-fullscreen .text--two {
+    font-size: 2.8vw;
+}
